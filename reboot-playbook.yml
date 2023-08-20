@@ -1,0 +1,6 @@
+---
+- name: Reboot servers
+  hosts: splunkservers
+  tasks:
+    - name: Reboot the server
+      reboot:
